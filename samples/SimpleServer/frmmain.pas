@@ -13,7 +13,6 @@ type
   { TForm1 }
 
   TForm1 = class(TForm)
-    IdHTTPServer1: TIdHTTPServer;
     procedure FormCreate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
   private

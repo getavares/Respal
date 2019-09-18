@@ -8,9 +8,4 @@ object Form1: TForm1
   OnCreate = FormCreate
   OnDestroy = FormDestroy
   LCLVersion = '1.8.4.0'
-  object IdHTTPServer1: TIdHTTPServer
-    Bindings = <>
-    left = 184
-    top = 96
-  end
 end
