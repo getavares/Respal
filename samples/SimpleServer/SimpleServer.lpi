@@ -9,7 +9,6 @@
       <Title Value="SimpleServer"/>
       <ResourceType Value="res"/>
       <UseXPManifest Value="True"/>
-      <Icon Value="0"/>
     </General>
     <BuildModes Count="1">
       <Item1 Name="Default" Default="True"/>
@@ -31,7 +30,7 @@
         <PackageName Value="LCL"/>
       </Item2>
     </RequiredPackages>
-    <Units Count="16">
+    <Units Count="18">
       <Unit0>
         <Filename Value="SimpleServer.lpr"/>
         <IsPartOfProject Value="True"/>
@@ -102,6 +101,16 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Respal.Listeners"/>
       </Unit15>
+      <Unit16>
+        <Filename Value="..\..\src\respal.hash.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Respal.Hash"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\src\respal.jwt.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Respal.JWT"/>
+      </Unit17>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
